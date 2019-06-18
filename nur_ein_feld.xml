@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<root>
+  <text id="vorname" label="Ihr Vorname">
+    <value>Max</value>
+  </text>
+</root>

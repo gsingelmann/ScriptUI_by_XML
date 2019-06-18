@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<root>
+  <button id="test" label="Schaltfläche" />
+  <button id="cancelElement" label="Abbrechen" />
+  <button id="defaultElement" label="OK" />
+</root>

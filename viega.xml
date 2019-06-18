@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<root>
+	<group>
+	  <group id="main">
+			<group>
+				<checkbox id="ist_heft" label="Dokumenttyp ist Heft" >
+					ist_heft
+				</checkbox>	
+			</group>
+			<panel id="lang_panel" label="Sprachen">
+				<group>
+					<one_of_n id="von_lang" label="von">
+						von_lang
+					</one_of_n>
+					<one_of_n id="bis_lang" label="bis">
+						bis_lang
+					</one_of_n>
+				</group>
+			</panel>
+			<group>
+				<checkbox id="ivz_da" label="IVZ vorhanden" >
+					ivz_exists
+				</checkbox>	
+			</group>
+	  </group>
+	  <group id="buttons">
+	    <button id="defaultElement" label="OK" />
+	    <button id="cancelElement" label="Abbrechen" />
+	  </group>
+	</group>
+</root>

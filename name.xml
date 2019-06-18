@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<root>
+  <text id="vorname" label="Ihr Vorname">
+    <value>Max</value>
+  </text>
+  <text id="nachname" label="Ihr Nachname">
+    <value>Muster</value>
+  </text>
+  <button id="defaultElement" label="OK" />
+</root>

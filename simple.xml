@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<root>
+  <group id="main">
+    <panel id="literals" label="Literals">
+      <one_of_n id="one_of_n_literal" label="Eins von Vielen">
+        <value>einundzwanzig</value>
+        <value>zweiundzwanzig</value>
+        <value>dreiundzwanzig</value>
+      </one_of_n>
+      <n_of_m id="n_of_m_literal" label="Mehrere von Vielen">
+        <value>vierunddreißig</value>
+        <value>fünfunddreißig</value>
+        <value>sechsunddreißig</value>
+      </n_of_m>
+      <number id="number_literal" label="Zahl">
+        <value>5</value>
+      </number>
+      <text id="text_literal" label="Text">
+        <value>some text</value>
+      </text>
+      <checkbox id="checkbox_literal" label="Ja/Nein">
+        <value>true</value>
+      </checkbox>
+    </panel>
+    <panel id="references" label="Referenzen">
+      <one_of_n id="one_of_n" label="Eins von Vielen">
+        some_list
+      </one_of_n>
+      <n_of_m id="n_of_m" label="Mehrere von Vielen">
+        some_other_list
+      </n_of_m>
+      <number id="number" label="Zahl">
+        some_number
+      </number>
+      <text id="some_text" label="Text">
+        some_text
+      </text>
+      <checkbox id="checkbox" label="Ja/Nein">
+        some_boolean
+      </checkbox>
+    </panel>
+  </group>
+  <group id="buttons">
+    <button id="test" label="Schaltfläche" />
+    <button id="cancelElement" label="Abbrechen" />
+    <button id="defaultElement" label="OK" />
+  </group>
+</root>

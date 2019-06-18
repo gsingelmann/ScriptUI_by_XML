@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<root>
+	<n_of_m id="n_of_m_literal" label="Mehrere von Vielen">
+	  <value>vierunddreißig</value>
+	  <value>fünfunddreißig</value>
+	  <value>sechsunddreißig</value>
+	</n_of_m>
+	<n_of_m id="n_of_m" label="Mehrere von Vielen">
+	  some_other_list
+	</n_of_m>
+	<button id="defaultElement" label="OK" />
+</root>

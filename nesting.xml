@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<root>
+  <panel id="einseins" label="1.1">
+	  <panel id="zweieins" label="2.1">
+		  <panel id="viereins" label="4.1">
+			  <panel id="acht1" label="8.1">
+					<checkbox id="cb1" label="on" >on</checkbox>
+					<checkbox label="off">blah</checkbox>
+				</panel>
+			  <panel id="acht2" label="8.2">
+					<checkbox label="off">blah</checkbox>
+					<checkbox label="off">blah</checkbox>
+				</panel>
+				<checkbox label="off">blah</checkbox>
+			</panel>
+		  <panel id="vierzwei" label="4.2">
+			  <panel id="neun1" label="9.1">
+					<checkbox label="off">blah</checkbox>
+					<checkbox label="off">blah</checkbox>
+				</panel>
+			  <panel id="neun2" label="9.2">
+					<checkbox label="off">blah</checkbox>
+					<checkbox label="off">blah</checkbox>
+				</panel>
+			</panel>
+			<checkbox label="off">blah</checkbox>
+		</panel>
+	  <panel id="zweizwei" label="2.2">
+		  <panel id="fuenfeins" label="5.1">
+			  <panel id="zehn1" label="10.1">
+				</panel>
+			  <panel id="zehn2" label="10.2">
+				</panel>
+			</panel>
+		  <panel id="fuenfzwei" label="5.2">
+			  <panel id="elf1" label="11.1">
+				</panel>
+			  <panel id="elf2" label="11.2">
+				</panel>
+			</panel>
+		</panel>
+	</panel>
+  <panel id="einszwei" label="1.2">
+	  <panel id="dreieins" label="3.1">
+		  <panel id="sechseins" label="6.1">
+			  <panel id="zwoelf1" label="12.1">
+				</panel>
+			  <panel id="zwoelf2" label="12.2">
+				</panel>
+			</panel>
+		  <panel id="sechszwei" label="6.2">
+			  <panel id="dreiz1" label="13.1">
+				</panel>
+			  <panel id="dreiz2" label="13.2">
+				</panel>
+			</panel>
+		</panel>
+	  <panel id="dreizwei" label="3.2">
+		  <panel id="siemeins" label="7.1">
+			  <panel id="vierz1" label="14.1">
+				</panel>
+			  <panel id="vierz2" label="14.2">
+				</panel>
+			</panel>
+		  <panel id="siemzwei" label="7.2">
+			  <panel id="fuenfz1" label="15.1">
+				</panel>
+			  <panel id="fuenfz2" label="15.2">
+				</panel>
+			</panel>
+		</panel>
+	</panel>
+</root>

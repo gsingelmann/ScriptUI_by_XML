@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<root>
+  <slider id="x_shift" label="X" />
+  <slider id="y_shift" label="Y" />
+  <slider id="rotate" label="R" />
+  <slider id="rotate" label="S" />
+  <slider id="rotate" label="N" />
+  <slider id="rotate" label="B" />
+	<checkbox id="vh" label="Kopien vorn"><value>false</value></checkbox>
+	<checkbox id="strk" label="Kontur"><value>false</value></checkbox>
+	<checkbox id="org" label="Original"><value>true</value></checkbox>
+	<checkbox id="opac" label="Deckkraft"><value>false</value></checkbox>
+</root>

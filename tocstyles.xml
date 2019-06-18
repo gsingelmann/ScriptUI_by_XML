@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<root>
+  <group id="main">
+		<group id="col_0">
+			<text id="d1"><value>doc1</value></text>
+			<text id="d1"><value>doc1</value></text>
+			<text id="d1"><value>doc1</value></text>
+		</group>
+		<group id="col_1">
+			<text id="d1"><value>doc1</value></text>
+			<text id="d1"><value>doc1</value></text>
+			<text id="d1"><value>doc1</value></text>
+		</group>
+		<group id="col_2">
+			<text id="d1"><value>doc1</value></text>
+			<text id="d1"><value>doc1</value></text>
+			<text id="d1"><value>doc1</value></text>
+		</group>
+		<group id="col_3">
+			<text id="d1"><value>doc1</value></text>
+			<text id="d1"><value>doc1</value></text>
+			<text id="d1"><value>doc1</value></text>
+		</group>
+  </group>
+  <one_of_n id="one_of_n_literal" label="Eins von Vielen">
+    <value>einundzwanzig</value>
+    <value>zweiundzwanzig</value>
+    <value>dreiundzwanzig</value>
+  </one_of_n>
+  <group id="buttons">
+    <button id="test" label="Schaltfläche" />
+    <button id="cancelElement" label="Abbrechen" />
+    <button id="defaultElement" label="OK" />
+  </group>
+</root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<root>
+	<text label="placeholder"><value></value></text>
+	<checkbox id="checkbox_literal" label="Ja/Nein">
+	  <value>true</value>
+	</checkbox>
+	<checkbox id="checkbox" label="Ja/Nein">
+	  some_boolean
+	</checkbox>
+	<button id="defaultElement" label="OK" />
+</root>

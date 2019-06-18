@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<root>
+	<one_of_n id="one_of_n_literal" label="Eins von Vielen">
+	  <value>einundzwanzig</value>
+	  <value>zweiundzwanzig</value>
+	  <value>dreiundzwanzig</value>
+	</one_of_n>
+	<one_of_n id="one_of_n" label="Eins von Vielen">
+	  some_list
+	</one_of_n>
+	<button id="defaultElement" label="OK" />
+</root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<root>
+	<group>
+		<panel label="Name">
+		  <text id="vorname" label="Ihr Vorname">
+		    <value>Max</value>
+		  </text>
+		  <text id="nachname" label="Ihr Nachname">
+		    <value>Muster</value>
+		  </text>
+		</panel>
+	</group>
+  <button id="defaultElement" label="OK" />
+</root>

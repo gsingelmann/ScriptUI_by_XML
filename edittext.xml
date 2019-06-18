@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<root>
+	<number id="number_literal" label="Zahl">
+	  <value>5</value>
+	</number>
+	<text id="text_literal" label="Text">
+	  <value>some text</value>
+	</text>
+	<number id="number" label="Zahl">
+	  some_number
+	</number>
+	<text id="some_text" label="Text">
+	  some_text
+	</text>
+	<button id="defaultElement" label="OK" />
+</root>
