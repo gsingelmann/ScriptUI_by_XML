@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<root>
+	<fieldset id="all" orientation="row">
+		<fieldset id="p1">
+			<textarea id="pf" label="Prüfergebnisse" />
+		</fieldset>
+		<fieldset valign="top">
+			<button id="defaultElement" label="Exportieren" />
+			<button id="cancelElement" label="Abbrechen" />
+		</fieldset>
+	</fieldset>
+
+</root>
