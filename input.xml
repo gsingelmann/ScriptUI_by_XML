@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<root>
+  <fieldset>
+    <input type="text" id="text_input" label="ein Text">Das steht da</input>
+    <input type="number" id="number_input" label="eine Zahl">3.1415</input>
+    <textarea id="ta" label="Mehrzeilig" />
+  </fieldset>
+</root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<root>
+	<fieldset id="all" orientation="row">
+		<fieldset id="main" > 
+			<legend>some input</legend>
+      <input id="some_text" label="some text">the value</input>
+      <input id="some_other_text" label="some other text"></input>
+		</fieldset>
+		<fieldset valign="top">
+			<button id="defaultElement" label="OK" />
+			<button id="cancelElement" label="Abbrechen" />
+			<button id="weissnich" label="Weiß nich" />
+		</fieldset>
+	</fieldset>
+</root>

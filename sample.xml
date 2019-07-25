@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <root>
 	<fieldset id="all" orientation="row">
-		<fieldset id="main">
+		<fieldset id="main"> 
 			<fieldset id="p1">
 				<legend>Ein Panel</legend>
 				<textarea id="ta" label="Mehrzeilig" />

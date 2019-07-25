@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<root>
+	<fieldset id="main" > 
+		<legend>slider</legend>
+		<slider id="slider1" label="x" />
+	</fieldset>
+</root>
