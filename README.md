@@ -6,6 +6,8 @@ It asks for an *.xml file and creates a *.jsx file from it, containing the Scrip
 
 The syntax of the xml is oriented on HTML form elements. Basically: If you can write HTML-forms you should quickly be able to write ScriptUI forms, too. Currently only a subset of HTML is allowed.
 
+**Update 14.10.19:** Documentation and Samples now include the ability to use images
+
 ## The tags
 
 ### groups and panels
@@ -33,7 +35,7 @@ This:
 <?xml version="1.0" ?>
 <root>
   <fieldset id="all" orientation="row">
-    <fieldset id="main" > 
+    <fieldset id="main" >
       <legend>some input</legend>
       <input id="some_text" label="some text">the value</input>
       <input id="some_other_text" label="some other text"></input>
@@ -125,7 +127,7 @@ w.slider1_fd.onChange = function() {
 
 ![slider](./pix/slider.jpg)
 
-A slider has three parts in a row: 
+A slider has three parts in a row:
 - the label
 - the slider
 - a text input
@@ -173,8 +175,50 @@ w.weissnich.onClick = function() {
 }
 ```
 
+### images
+
+The scaffolder supports images for static purposes and as image-buttons.
+
+![images in UI](./pix/img_buttons.png)
+
+To get a static image (e.g. a title image) use the standard HTML-Tag:
+
+``` xml
+<img src="name-of-image-in-same-directory-as-xml.png" id="the_image" />
+```
+
+Image buttons can either be toggled or trigger an action. Toggle buttons have a `toggle="true"` attribute.
+
+``` xml
+<fieldset id="align">
+  <legend>Alignment</legend>
+  <fieldset orientation="row">
+    <button id="left_btn" image="left.png" toggle="true"/>
+    <button id="center_btn" image="center.png" toggle="true" value="true"/>
+    <button id="right_btn" image="right.png" toggle="true"/>
+  </fieldset>
+</fieldset>
+```
+
+Trigger buttons don’t.
+
+``` xml
+<fieldset id="actions">
+  <legend>Actions</legend>
+  <fieldset orientation="row">
+    <button id="comment_btn" image="comment.png" />
+    <button id="paint_btn" image="paint.png" />
+    <button id="sort_btn" image="sort.png" />
+  </fieldset>
+</fieldset>
+```
+
+The scaffolder includes the image data as an escaped string so that the resulting .jsx contains everything and is not dependent on separate image files.
+
+![escaped image](./pix/escaped-image.png)
+
 ## Sample
 
-The sample.xml contains all tags in context.
+The sample.xml contains all tags (except images) in context.
 
 ![big sample](./pix/big_sample.jpg)

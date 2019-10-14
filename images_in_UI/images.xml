@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root>
+	<img id="title" src="title.png"/>
+	<fieldset id="all" orientation="row">
+		<fieldset id="left" valign="top">
+			<fieldset id="align">
+				<legend>Alignment</legend>
+				<fieldset orientation="row">
+					<button id="left_btn" image="left.png" toggle="true" value="true"/>
+					<button id="center_btn" image="center.png" toggle="true"/>
+					<button id="right_btn" image="right.png" toggle="true"/>
+				</fieldset>
+			</fieldset>
+			<fieldset id="actions">
+				<legend>Actions</legend>
+				<fieldset orientation="row">
+					<button id="comment_btn" image="comment.png" />
+					<button id="paint_btn" image="paint.png" />
+					<button id="sort_btn" image="sort.png" />
+				</fieldset>
+			</fieldset>
+		</fieldset>
+			
+		<fieldset id="btns" valign="top">
+			<button id="defaultElement" label="Anwenden"/>
+			<button id="cancelElement" label="Abbrechen"/>
+		</fieldset>
+	</fieldset>
+</root>
